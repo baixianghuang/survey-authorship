@@ -388,6 +388,8 @@ The Table below present an overview of LLM-Generated Text Detectors.
 
 ### 4. Human-LLM Co-authored Text Attribution
 
+- **EditLens: Quantifying the Extent of AI Editing in Text.** Katherine Thai, Bradley Emi, Elyas Masrour, and Mohit Iyyer. *arXiv preprint arXiv:2510.03154* (2025) [[link]](https://arxiv.org/abs/2510.03154)
+
 - **Imitate Before Detect: Aligning Machine Stylistic Preference for Machine-Revised Text Detection.** Jiaqi Chen, Xiaoye Zhu, Tianyang Liu, Ying Chen, Xinhui Chen, Yiwen Yuan, Chak Tou Leong, and others. *arXiv preprint arXiv:2412.10432* (2024) [[link]](https://arxiv.org/pdf/2412.10432)
 
 - **LLM-as-a-Coauthor: Can Mixed Human-Written and Machine-Generated Text Be Detected?.** Qihui Zhang, Chujie Gao, Dongping Chen, Yue Huang, Yixin Huang, Zhenyang Sun, Shilin Zhang, Weiye Li, Zhengyan Fu, Yao Wan, and Lichao Sun. *Findings of the Association for Computational Linguistics: NAACL 2024* (2024) [[link]](https://aclanthology.org/2024.findings-naacl.29/)
