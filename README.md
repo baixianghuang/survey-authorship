@@ -64,7 +64,7 @@ The table below is a summary of Authorship Attribution Datasets and Benchmarks w
 
 
 
-The Table below present an overview of LLM-Generated Text Detectors.
+The Table below presents an overview of LLM-Generated Text Detectors.
 | Detector               | Price                                                 | API | Website                                                             |
 | :--------------------- | :---------------------------------------------------- | :-- | :------------------------------------------------------------------ |
 | GPTZero                | 150k words at $10/month, 10k words for free per month | Yes | https://gptzero.me/                                                 |
@@ -74,6 +74,7 @@ The Table below present an overview of LLM-Generated Text Detectors.
 | CopyLeaks              | 300k words at $7\.99/month                            | Yes | https://copyleaks.com/ai-content-detector                           |
 | Winston                | 80k words at $12/month                                | Yes | https://gowinston.ai/                                               |
 | GPT Radar              | $0\.02/100 tokens                                     | N/A | https://gptradar.com/                                               |
+| Plagiatkontroll     | 25k words for $15\.33/month                               | Yes | https://plagiatkontroll.no/                                         |
 | Turnitin’s AI detector | License  required                                     | N/A | https://www.turnitin.com/solutions/topics/ai-writing/ai-detector/   |
 | GPT-2 Output Detector  | Free                                                  | N/A | https://github.com/openai/gpt-2-output-dataset/tree/master/detector |
 | Crossplag              | Free                                                  | N/A | https://crossplag.com/ai-content-detector/                          |
@@ -84,6 +85,7 @@ The Table below present an overview of LLM-Generated Text Detectors.
 | Writefull              | Free                                                  | Yes | https://x.writefull.com/gpt-detector                                |
 | Phrasly                | Free                                                  | Yes | https://phrasly.ai/ai-detector                                      |
 | Writer                 | Free                                                  | Yes | https://writer.com/ai-content-detector/                             |
+
 
 
 ## Paper List
