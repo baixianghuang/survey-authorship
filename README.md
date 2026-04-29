@@ -74,8 +74,9 @@ The Table below presents an overview of LLM-Generated Text Detectors.
 | CopyLeaks              | 300k words at $7\.99/month                            | Yes | https://copyleaks.com/ai-content-detector                           |
 | Winston                | 80k words at $12/month                                | Yes | https://gowinston.ai/                                               |
 | GPT Radar              | $0\.02/100 tokens                                     | N/A | https://gptradar.com/                                               |
-| Plagiatkontroll     | 25k words for $15\.33/month                               | Yes | https://plagiatkontroll.no/                                         |
+| Plagiatkontroll        | 25k words for $15\.33/month                           | Yes | https://plagiatkontroll.no/                                         |
 | Turnitin’s AI detector | License  required                                     | N/A | https://www.turnitin.com/solutions/topics/ai-writing/ai-detector/   |
+| QuillBot               | Free tier: up to 1,200 words; Premium: unlimited ($19.95/month, $99.95/year) | N/A | https://quillbot.com/ai-content-detector                            |
 | GPT-2 Output Detector  | Free                                                  | N/A | https://github.com/openai/gpt-2-output-dataset/tree/master/detector |
 | Crossplag              | Free                                                  | N/A | https://crossplag.com/ai-content-detector/                          |
 | CatchGPT               | Free                                                  | N/A | https://www.catchgpt.ai/                                            |
