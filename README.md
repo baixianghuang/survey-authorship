@@ -64,29 +64,49 @@ The table below is a summary of Authorship Attribution Datasets and Benchmarks w
 
 
 
-The Table below presents an overview of LLM-Generated Text Detectors.
-| Detector               | Price                                                 | API | Website                                                             |
-| :--------------------- | :---------------------------------------------------- | :-- | :------------------------------------------------------------------ |
-| GPTZero                | 150k words at $10/month, 10k words for free per month | Yes | https://gptzero.me/                                                 |
-| ZeroGPT                | 100k characters for $9\.99, 15k characters for free   | Yes | https://www.zerogpt.com/                                            |
-| Sapling                | 50k characters for $25, 2k characters for free        | Yes | https://sapling.ai/ai-content-detector                              |
-| Originality.AI         | 200k words at $14\.95/month                           | Yes | https://originality.ai/                                             |
-| CopyLeaks              | 300k words at $7\.99/month                            | Yes | https://copyleaks.com/ai-content-detector                           |
-| Winston                | 80k words at $12/month                                | Yes | https://gowinston.ai/                                               |
-| GPT Radar              | $0\.02/100 tokens                                     | N/A | https://gptradar.com/                                               |
-| Plagiatkontroll        | 25k words for $15\.33/month                           | Yes | https://plagiatkontroll.no/                                         |
-| Turnitin’s AI detector | License  required                                     | N/A | https://www.turnitin.com/solutions/topics/ai-writing/ai-detector/   |
-| QuillBot               | Free tier: up to 1,200 words; Premium: unlimited ($19.95/month, $99.95/year) | N/A | https://quillbot.com/ai-content-detector                            |
-| GPT-2 Output Detector  | Free                                                  | N/A | https://github.com/openai/gpt-2-output-dataset/tree/master/detector |
-| Crossplag              | Free                                                  | N/A | https://crossplag.com/ai-content-detector/                          |
-| CatchGPT               | Free                                                  | N/A | https://www.catchgpt.ai/                                            |
-| Quil.org               | Free                                                  | N/A | https://aiwritingcheck.org/                                         |
-| Scribbr                | Free                                                  | N/A | https://www.scribbr.com/ai-detector/                                |
-| Draft Goal             | Free                                                  | N/A | https://detector.dng.ai/                                            |
-| Writefull              | Free                                                  | Yes | https://x.writefull.com/gpt-detector                                |
-| Phrasly                | Free                                                  | Yes | https://phrasly.ai/ai-detector                                      |
-| Writer                 | Free                                                  | Yes | https://writer.com/ai-content-detector/                             |
+The figure and table below presents an overview of LLM-Generated Text Detectors.
 
+
+<p align="center">
+  <img src="detectors_overview.png" alt="Overview of LLM-Generated Text Detectors" width="80%">
+</p>
+
+
+
+#### Commercial Detectors
+| Detector | Free Tier | Paid Plan | API | Humanizer | Website |
+| :--- | :--- | :--- | :-: | :-: | :--- |
+| GPTZero | 10k words/mo | $12.99/mo · 300k words | ✓ |   | [gptzero.me](https://gptzero.me/) |
+| Winston | 2k words trial | $10/mo · 80k words | ✓ |   | [gowinston.ai](https://gowinston.ai/) |
+| Sapling | 2k chars | $12 · 100k chars | ✓ |   | [sapling.ai](https://sapling.ai/ai-content-detector) |
+| Pangram | 4 checks/day | $20/mo · 600 checks | ✓ |   | [pangram.com](https://www.pangram.com/) |
+| ZeroGPT | 15k chars | $7.99 · 100k chars | ✓ | ✓ | [zerogpt.com](https://www.zerogpt.com/) |
+| Phrasly | 6k words | $10.99/mo · unlimited | ✓ | ✓ | [phrasly.ai](https://phrasly.ai/ai-detector) |
+| Smodin AI Detector | 50k chars | $12/mo | ✓ | ✓ | [smodin.io](https://smodin.io/ai-content-detector) |
+| Scribbr | 500 words/check | $19.95 · unlimited |   | ✓ | [scribbr.com](https://www.scribbr.com/ai-detector/) |
+| QuillBot | 1,200 words/scan | ~$8.33 · unlimited |   | ✓ | [quillbot.com](https://quillbot.com/ai-content-detector) |
+| Draft & Goal | 2k words | $9.99/mo · 200k words |   | ✓ | [detector.dng.ai](https://detector.dng.ai/) |
+| BrandWell | 2,500 chars | $199/yr · WriteWell plan |   | ✓ | [brandwell.ai](https://brandwell.ai/ai-content-detector/) |
+| Undetectable AI | — | $5/mo · 10k words | ✓ | ✓ | [undetectable.ai](https://undetectable.ai/) |
+| Isgen | — | $8/mo · 350k words | ✓ | ✓ | [isgen.ai](https://isgen.ai/) |
+| Grammarly | — | $12/mo · Pro plan |   | ✓ | [grammarly.com](https://www.grammarly.com/ai-detector) |
+| Plag.AI | — | $14.95/mo · 10k words |   | ✓ | [plag.ai](https://plag.ai/) |
+| Plagiatkontroll | — | $15.33/mo · 25k words | ✓ |   | [plagiatkontroll.no](https://plagiatkontroll.no/) |
+| Originality.AI | — | $12.95/mo · 200k words | ✓ |   | [originality.ai](https://originality.ai/) |
+| CopyLeaks | — | $13.99/mo · 300k words | ✓ |   | [copyleaks.com](https://copyleaks.com/ai-content-detector) |
+| GPT Radar | — | $0.02 / 100 tokens |   |   | [gptradar.com](https://gptradar.com/) |
+| Turnitin's AI detector | — | License required |   |   | [turnitin.com](https://www.turnitin.com/solutions/topics/ai-writing/ai-detector/) |
+
+
+#### Open-Source Detectors
+| Detector | Method | Repo |
+| :--- | :--- | :--- |
+| Binoculars | Zero-shot | [GitHub](https://github.com/ahans30/Binoculars) |
+| DetectGPT | Zero-shot · probability curvature | [GitHub](https://github.com/eric-mitchell/detect-gpt) |
+| Fast-DetectGPT | Zero-shot · conditional probability curvature | [GitHub](https://github.com/baoguangsheng/fast-detect-gpt) |
+| GPT-2 Output Detector | RoBERTa fine-tune | [GitHub](https://github.com/openai/gpt-2-output-dataset/tree/master/detector) |
+| Hello-SimpleAI ChatGPT Detector | RoBERTa · trained on HC3 | [Hugging Face](https://huggingface.co/Hello-SimpleAI/chatgpt-detector-roberta) |
+| Desklib AI Text Detector | DeBERTa-v3 · trained on RAID | [Hugging Face](https://huggingface.co/desklib/ai-text-detector-v1.01) |
 
 
 ## Paper List
