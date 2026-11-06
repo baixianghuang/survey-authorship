@@ -112,6 +112,8 @@ The figure and table below presents an overview of LLM-Generated Text Detectors.
 ## Paper List
 
 ### 1. Human-written Text Attribution
+- **Unraveling Interwoven Roles of Large Language Models in Authorship Privacy: Obfuscation, Mimicking, and Verification.** Tuc Nguyen, Yifan Hu, and Thai Le. *Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing* (2025) [[link]](https://aclanthology.org/2025.emnlp-main.753/)
+
 - **Who could be behind QAnon? Authorship attribution with supervised machine-learning.** Florian Cafiero, and Jean-Baptiste Camps. *arXiv preprint arXiv:2303.02078* (2023) [[link]](https://arxiv.org/pdf/2303.02078)
 
 - **PART: Pre-trained Authorship Representation Transformer.** Javier Huertas-Tato, Alvaro Huertas-Garcia, Alejandro Martin, and David Camacho. *arXiv preprint arXiv:2209.15373* (2022) [[link]](https://arxiv.org/pdf/2209.15373)
